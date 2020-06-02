@@ -12,4 +12,11 @@ public class ToasterMessageClass
 
     }
 
+
+    public static void showmsgData(Context c, String message){
+
+        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+
+    }
+
 }
